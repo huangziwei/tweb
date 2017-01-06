@@ -48,5 +48,5 @@ def download_PDF(url, filename):
 	print('/nDownload Complete!')
 
 PDF_url, filename = get_PDF_url(url)
-print(PDF_url)
+print("Extracted URL", PDF_url)
 download_PDF(PDF_url, filename)

@@ -1,5 +1,4 @@
-setup.py
-tweb
+tweb.py
 tweb.egg-info/PKG-INFO
 tweb.egg-info/SOURCES.txt
 tweb.egg-info/dependency_links.txt
