@@ -11,4 +11,10 @@ A Python command line tool for downloading books from [http://taiwanebook.ncl.ed
 	$ python tweb.py http://taiwanebook.ncl.edu.tw/zh-tw/book/NCL-001143671
 
 	http://taiwanebook.ncl.edu.tw/ebkFiles/NCL-001143671/NCL-001143671.PDF	
-	...0%, 0/96, MB, 85 KB/s 
+	...0%, 0/96, MB, 85 KB/s
+
+## To Do
+
+1. Extract book info from webpage and rename filenames into readable ones;
+2. Use other tools to download books instead of relying on built-in modules;
+3. ...
