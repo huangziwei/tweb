@@ -1,0 +1,4 @@
+beautifulsoup4>=4.3.2
+requests>=2.4.3
+you-get>=0.4.595
+lxml>=3.4.4

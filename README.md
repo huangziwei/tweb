@@ -12,16 +12,30 @@ As stated on the website of 台湾华文电子书库：
 
 Yet, it only offers online browsing. The size of those books are big and it tooks a long time to load.  
 
+## Requirements
+
+- Python3
+- requests
+- BeautifulSoup4
+- lxml
+
 ## Usage
 
 	$ git clone https://github.com/huangziwei/tweb
-	$ python tweb.py http://taiwanebook.ncl.edu.tw/zh-tw/book/NCL-001143671
+	$ cd tweb
+	$ pip install -r requirements.txt
+	$ python tweb.py http://taiwanebook.ncl.edu.tw/zh-tw/book/NCL-000026558
+	Downloading book:  亂世哲學
+	Site:       ncl.edu.tw
+	Title:      NCL-000026558
+	Type:       Unknown type (pdf)
+	Size:       17.68 MiB (18536765 Bytes)
 
-	http://taiwanebook.ncl.edu.tw/ebkFiles/NCL-001143671/NCL-001143671.PDF	
-	...0%, 0/96, MB, 85 KB/s
+	Downloading 亂世哲學.pdf ...
+	 0.0% (  0.0/ 17.7MB) ├─────────────────────────────────────────┤[1/1]
 
 ## To Do
 
-1. Extract book info from webpage and rename filenames into readable ones;
-2. Use other tools to download books instead of relying on built-in modules;
+1. Extract book info from webpage and rename filenames into readable ones (✓);
+2. Use other tools to download books instead of relying on built-in modules (✓);
 3. ...
