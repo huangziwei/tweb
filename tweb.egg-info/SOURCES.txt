@@ -1,5 +1,0 @@
-tweb.py
-tweb.egg-info/PKG-INFO
-tweb.egg-info/SOURCES.txt
-tweb.egg-info/dependency_links.txt
-tweb.egg-info/top_level.txt
